@@ -28,6 +28,23 @@ Runner.addAnimation("running",Runner_running);
 Runner.scale = 0.05;
 
 
+coin=createSprite(200,200,80,90);
+coin.addImage(coin_Image);
+coin.scale=0.3;
+coin.velocityY=4;
+
+coin=createSprite(100,200,80,90);
+coin.addImage(coin_Image);
+coin.scale=0.3;
+
+coin=createSprite(300,200,80,90);
+coin.addImage(coin_Image);
+coin.scale=0.3;
+
+left_boundary=createSprite(0,300,100,600);
+
+
+right_boundary=createSprite(0,300,100,600);
 
 
 }
